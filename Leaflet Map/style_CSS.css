@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1400px) {
+  .upper_ribbon {
+    width: 100%;
+    height: 50px;
+    background: rgb(39, 38, 38);
+    font-size: 30px;
+    font-family: "Lucida Sans Unicode";
+    text-indent: 10px;
+    color: rgb(252, 252, 245);
+    float: left;
+    border: 3px solid black;
+    border-radius: 5px 5px 5px 5px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .upper_ribbon {
+    width: 100%;
+    height: 40px;
+    background: rgb(47, 49, 49);
+    font-size: 25px;
+    font-family: "Lucida Sans Unicode";
+    text-indent: 10px;
+    color: rgb(252, 252, 245);
+    float: left;
+    border: 3px solid black;
+    border-radius: 5px 5px 5px 5px;
+  }
+}
+
+#map {
+  width: 90%;
+  height: 520px;
+  border: 2px solid black;
+  top: 15px;
+  /* margin: 20px; */
+  margin: auto;
+}
+
+@media only screen and (max-width: 400px) {
+  #map {
+    width: 90%;
+    height: 650px;
+    border: 2px solid black;
+    top: 10px;
+    margin: auto;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  font-family: "Lucida Sans Unicode";
+  font-size: 12px;
+  margin-left: 15px;
+  padding-top: 5px;
+}
